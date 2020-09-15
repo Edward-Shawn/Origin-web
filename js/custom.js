@@ -1,6 +1,8 @@
 $(document).ready(function(){
     
-    
+    $(".menu .search i").click(function(){
+        $(".search").addClass("active");
+    })
 
     $(".owl-carousel").mouseenter(function(){
         

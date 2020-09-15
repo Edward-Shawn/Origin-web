@@ -1,0 +1,89 @@
+@media screen and (max-width: 1640px) {
+    .mostplay_con>div .game-info .info_img{width: 140px;}
+}
+
+
+@media screen and (max-width: 1600px) {
+
+
+    .banner_txt{height: auto;}
+    .pay_button1{float: unset; margin-right: 0; margin-top: 0;}
+    .pay_button1 a{padding: 0; margin: 10px 0 20px 0; background: none; color: #2ac4f5;}
+    .pay_button1 a:hover{text-decoration: underline; background: none;}
+    .first-txtBox{padding-right: 100px;}
+    .banner2_txt h3{font-size: 55px;}
+    .banner2_txt p{font-size: 20px;}
+    
+
+    .mostplay_con>div .game-info img{margin-left: 15px;}
+    .mostplay_con>div .game-info .info_img{width: 115px;}
+
+    .mostplay .premier_box .info_txt h3{font-size: 24px;}
+    .premier_game-info .info_txt p{font-size: 15px !important;}
+
+}
+
+@media screen and (max-width: 1400px) {
+    .menu {max-width: 260px;}
+    .s-wrap{padding-left: 260px;}
+
+    .mostplay .premier_box .info_txt h3{font-size: 24px;}
+    .premier_game-info .info_txt p{font-size: 15px !important;}
+
+    
+
+    .slide{height: 500px;}
+
+    .slide-3>div{width: 80%;}
+
+    .premier_game-info .pay_button a{padding: 18px 80px;}
+    
+}
+
+@media screen and (max-width: 1300px){
+    .slide{height: 470px;}
+    .banner_txt{padding-left: 50px;}
+    .banner_info{width: 70px; height: 115px;}
+
+
+    .banner_info2{width: 47%;}
+    .banner2_txt h3{font-size: 40px;}
+    .banner2_txt p{font-size: 18px;}
+    .pay_button2 a{padding: 20px 80px;}
+    
+    .premier_game-info .pay_button a{padding: 13px 50px;}
+}
+
+@media screen and (max-width: 1200px){
+    .banner_info2{width: 47%;}
+    .slide-3>div{width: 90%;}
+    .pay_button2 a{padding: 15px 60px;}
+
+    .premier_game-info .pay_button{display: none;}
+}
+
+
+
+/* mobile */
+@media screen and (max-width: 1000px){
+    
+    .s-wrap{padding-left: 0;}
+    .menu{max-width: 100%; height: 60px; top: 0; display: flex; align-items: center; border: 1px solid greenyellow;}
+    .menu-btn{display: block;}
+
+    .logo>img{height: 31px;}
+    .logo h1{font-size: 23px; margin-top: -4px;}
+    .menu .logo{margin-top: 15px;}
+    .menu .search{border: 1px solid red;  position: absolute; width: auto; height: 60px; left: 80px; right: 30px;}
+    .menu .search i{transition: all 0.3s; width: 20px; top: 9px; z-index: 99; color: #eee; font-size: 20px; right: 0;}
+    .menu .search input{position: absolute; transition: all 0.3s; top: 10px; width: 0; right: 0; margin-top: 0; transform: scaleX(0); transform-origin: right center;}
+    
+    
+    .menu .search.active i{left: 15px; top: 9px; color: #555;}
+    .menu .search.active .search-box{width: 100%; transform: scaleX(1);}
+
+
+    .menu .gnb{display: none;}
+    .menu .sub_tag{display: none;}
+    .menu .login-box{display: none;}
+}
