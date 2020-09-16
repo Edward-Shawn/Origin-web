@@ -32,18 +32,17 @@
 
     
 
-    .slide{height: 500px;}
-
-    .slide-3>div{width: 80%;}
 
     .premier_game-info .pay_button a{padding: 18px 80px;}
     
+
+    .slide-3>div{width: 80%;}
 }
 
 @media screen and (max-width: 1300px){
-    .slide{height: 470px;}
+  
     .banner_txt{padding-left: 50px;}
-    .banner_info{width: 70px; height: 115px;}
+    .banner_info{width: 70px; height: 115px; margin-top: -19px;}
 
 
     .banner_info2{width: 47%;}
@@ -55,35 +54,170 @@
 }
 
 @media screen and (max-width: 1200px){
+    .slide_wrap{height: 400px;}
     .banner_info2{width: 47%;}
-    .slide-3>div{width: 90%;}
+
     .pay_button2 a{padding: 15px 60px;}
 
     .premier_game-info .pay_button{display: none;}
 }
 
+@media screen and (max-width: 1130px){
+    .banner_txt h3{font-size: 30px;}
+}
 
 
 /* mobile */
 @media screen and (max-width: 1000px){
+    body{padding-top: 60px;}
     
     .s-wrap{padding-left: 0;}
-    .menu{max-width: 100%; height: 60px; top: 0; display: flex; align-items: center; border: 1px solid greenyellow;}
-    .menu-btn{display: block;}
+    .menu{max-width: 100%; height: 60px; top: 0; display: flex; align-items: center;}
+    .menu-btn{margin-top: 10px; height: 25px; display: block; z-index: 99; position: relative; left: 0; transition: all 0.4s;}
+
+    .menu-btn.on{left: 270px;}
+    .menu-btn.on span{width: 100%; height: 2px;  background: #eee; display: block;}
+    .menu-btn.on span:nth-child(1){transform: rotate(45deg); margin-top: 8px;}
+    .menu-btn.on span:nth-child(2){opacity: 0;}
+    .menu-btn.on span:nth-child(3){transform: rotate(-45deg); margin-top: -14px;}
+
+
+
 
     .logo>img{height: 31px;}
     .logo h1{font-size: 23px; margin-top: -4px;}
-    .menu .logo{margin-top: 15px;}
-    .menu .search{border: 1px solid red;  position: absolute; width: auto; height: 60px; left: 80px; right: 30px;}
-    .menu .search i{transition: all 0.3s; width: 20px; top: 9px; z-index: 99; color: #eee; font-size: 20px; right: 0;}
-    .menu .search input{position: absolute; transition: all 0.3s; top: 10px; width: 0; right: 0; margin-top: 0; transform: scaleX(0); transform-origin: right center;}
+    .menu .logo{margin-top: 0; transition: all 0.4s; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+    .menu .search{position: absolute; width: auto; height: 60px; left: 80px; right: 30px;}
+    .menu .search i{width: 20px; top: 9px; color: #eee; font-size: 20px; left: 95% !important;}
+    .menu .search .search-box{position: absolute; transition: all 0.3s; top: 10px; width: 0; right: 0; margin-top: 0; transform: scaleX(0); opacity: 0; transform-origin: right center;}
     
-    
-    .menu .search.active i{left: 15px; top: 9px; color: #555;}
-    .menu .search.active .search-box{width: 100%; transform: scaleX(1);}
+    .menu .search.active i{left: 15px !important; z-index: 99; top: 9px; color: #555;}
+    .menu .search.active .search-box{width: 100%; transform: scaleX(1); opacity: 1;}
 
 
-    .menu .gnb{display: none;}
-    .menu .sub_tag{display: none;}
-    .menu .login-box{display: none;}
+    .mobile{position: fixed; transition: all 0.4s; background: rgb(28, 50, 61); top: 0; width: 280px; left: -280px; height: 100%;}
+    .mobile.on{left: 0;}
+    .gnb ul li{display: none;}
+    .gnb li>i{display: none;}
+
+
+
+
+
+  
+    .banner_txt{ background:rgb(28, 50, 61);}
+
+    /* slide button */
+
+
+
+    footer{display: block;}
+    footer .footer_txt{width: 50%; float: left; padding: 0;}
+    footer .footer_txt:nth-child(3){width: 100%; margin-bottom: 70px;}
+
+
+    .mostplay_con{margin-top: 20px;}
+
+}
+
+@media screen and (max-width: 840px){
+
+   
+    .banner_txt{padding-left: 30px;}
+    .banner_txt h3{font-size: 30px; margin-top: 15px;}
+    .banner_txt p{font-size: 15px;}
+}
+
+@media screen and (max-width: 740px){
+
+    .banner_info{height: 90px; margin-top: -30px;}
+   
+    .banner_txt{padding-left: 30px;}
+    .banner_txt h3{font-size: 25px; margin-top: 15px;}
+    .banner_txt p{font-size: 15px;}
+}
+
+@media screen and (max-width: 700px){
+    .slide_wrap{height: 370px;}
+}
+
+@media screen and (max-width: 644px){
+    .banner_txt h3{font-size: 20px; margin-top: 10px;}
+    .banner_txt p{font-size: 13px;}
+
+
+    .mostplay_con > div{width: 100% !important; margin-left: 0 !important;}
+
+    .banner2_txt .pay_button2{margin-top: 20px;}
+}
+
+@media screen and (max-width: 600px){
+    .first-txtBox{padding-right: 50px;}
+    .slide_wrap{height: 340px;}
+  
+    .banner_txt{padding-left: 30px;}
+    .banner_txt h3{font-size: 20px; margin-top: 10px;}
+    .banner_txt p{font-size: 13px;}
+
+    .banner2_txt h3{font-size: 34px;}
+    
+@media screen and (max-width: 560px){
+    .slide-3>div{width: 90%;}
+    .slide-1>img{height: 80%;}
+    .banner2_txt .pay_button2 a{padding: 10px 20px;}
+}
+
+
+@media screen and (max-width: 520px){
+    .slide_wrap{height: 320px;}
+ 
+}
+@media screen and (max-width: 500px){
+    .banner_info{height: 80px; margin-top: -20px;}
+
+    .first-txtBox{padding-right: 50px;}
+    .banner_txt{padding-left: 10px;}
+
+    .banner2_txt h3{font-size: 30px;}
+    .banner2_txt .pay_button2 a{padding: 10px 20px;}
+    .banner2_txt p{font-size: 15px;}
+    footer{padding-left: 15px; padding-right: 15px;}
+
+
+    .banner_txt h3{font-size: 18px;}
+    .banner_txt p{display: none;}
+    
+    .owl-dots{bottom: -9%;}
+
+
+    .mostplay_con>div .game-info img{height: 98px; margin-top: -34px;}
+}
+
+@media screen and (max-width: 470px){
+    .slide-2>img{left: 55%;}
+  
+}
+
+
+@media screen and (max-width: 400px){
+    .slide-2>img{left: 45%;}
+    .slide-1>img{height: 70%;}
+
+    .slide_List_txt h2{font-size: 20px;}
+    .slide_List_txt .slide_link{font-size: 15px;}
+    .slide_List_txt2 h2{font-size: 20px;}
+    .slide_List_txt2 .slide_link{font-size: 15px;}
+
+    .slide-3>div{display: block; text-align: center;}
+    .banner_info2{width: 70%; margin: auto; margin-top: 17px;} 
+    .banner2_txt{width: 100%; text-align: center;}
+    .banner2_txt p{display: none;}
+
+}
+
+@media screen and (max-width: 360px){
+    .slide_wrap{height: 300px;}
+
+}
+
 }
