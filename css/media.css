@@ -95,11 +95,15 @@
     .menu .search.active .search-box{width: 100%; transform: scaleX(1); opacity: 1;}
 
 
-    .mobile{position: fixed; transition: all 0.4s; background: rgb(28, 50, 61); top: 0; width: 280px; left: -280px; height: 100%;}
+    .mobile{position: fixed; transition: all 0.4s; background: rgb(28, 50, 61); top: 0; width: 280px; height: 100vh; left: -280px;}
     .mobile.on{left: 0;}
+    .gnb{margin-top: 0; padding: 0;}
     .gnb ul li{display: none;}
+    .gnb>li:nth-child(1){padding-top: 10px; padding-left: 25px; padding-bottom: 10px;}
     .gnb li>i{display: none;}
 
+    .login-box{position: unset; bottom: unset; margin-top: 20px;}
+    
 
 
 
@@ -204,14 +208,15 @@
     .slide-1>img{height: 70%;}
 
     .slide_List_txt h2{font-size: 20px;}
-    .slide_List_txt .slide_link{font-size: 15px;}
+    .slide_List_txt .slide_link{font-size: 15px; padding-left: 10px;}
     .slide_List_txt2 h2{font-size: 20px;}
-    .slide_List_txt2 .slide_link{font-size: 15px;}
+    .slide_List_txt2 .slide_link{font-size: 15px; padding-left: 0px;}
 
-    .slide-3>div{display: block; text-align: center;}
-    .banner_info2{width: 70%; margin: auto; margin-top: 17px;} 
+    .slide-3>div{display: block; text-align: center; box-sizing: border-box; padding-top: 20px;}
+    .banner_info2{width: 60%; margin: auto; } 
     .banner2_txt{width: 100%; text-align: center;}
     .banner2_txt p{display: none;}
+
 
 }
 
