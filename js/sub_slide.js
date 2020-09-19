@@ -19,23 +19,6 @@ $(document).ready(function(){
     }
 
 
-    // nav.on("click", "a", function(e){
-    //     e.preventDefault();
-    //     var index = currentIndex;
-    //     if ($(this).hasClass("prev")){
-    //         if(index - 4 < 0)
-    //             index += index + 17;
-    //         else
-    //             index -= 4
-    //     }else{
-    //         if(index + 4 > 21)
-    //             index = 0;
-    //         else
-    //             index += 4;
-    //     }
-    //     goToSlide(index);
-    // });
-
     
     nav.on("click", "a", function(e){
         e.preventDefault();
@@ -93,21 +76,6 @@ $(document).ready(function(){
 
         }
     });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 });
