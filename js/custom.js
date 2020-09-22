@@ -6,11 +6,13 @@ $(document).ready(function(){
             $(this).addClass("on");
             $(".mobile").addClass("on");
             $(".logo").css('left','200%');
+           
             $(".menu .search").css('right','-1000px');
         }else{
             $(this).removeClass("on");
             $(".mobile").removeClass("on");
             $(".logo").css('left','50%');
+           
             $(".menu .search").css('right','30px');
         }
 
@@ -62,6 +64,7 @@ $(document).ready(function(){
             $(".logo").removeClass("add");
             $(".logo").removeAttr("style");
             $(".mobile").removeClass("on");
+            $(".menu .search").css('right','30px');
             return false;
            
             

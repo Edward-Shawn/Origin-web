@@ -88,7 +88,7 @@
     .logo>img{height: 31px;}
     .logo h1{font-size: 23px; margin-top: -4px;}
     .menu .logo{margin-top: 0; transition: all 0.3s; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
-    .menu .search{position: absolute; width: auto; height: 60px; left: 80px; right: 30px;}
+    .menu .search{position: absolute; width: auto; top: 0; height: 60px; left: 80px; right: 30px;}
     .menu .search i{width: 20px; top: 9px; color: #eee; font-size: 20px; left: 95% !important;}
     .menu .search .search-box{position: absolute; transition: all 0.3s; top: 10px; width: 0; right: 0; margin-top: 0; transform: scaleX(0); opacity: 0; transform-origin: right center;}
     
@@ -165,7 +165,8 @@
     .banner_txt p{font-size: 13px;}
 
     .banner2_txt h3{font-size: 34px;}
-    
+
+}    
 @media screen and (max-width: 560px){
     .slide-3>div{width: 90%;}
     .slide-1>img{height: 80%;}
@@ -177,8 +178,10 @@
     .slide_wrap{height: 320px;}
  
 }
+
 @media screen and (max-width: 500px){
     .banner_info{height: 80px; margin-top: -20px;}
+    .banner2_txt p{font-size: 10px;}
 
     .first-txtBox{padding-right: 50px;}
     .banner_txt{padding-left: 10px;}
@@ -223,7 +226,5 @@
 
 @media screen and (max-width: 360px){
     .slide_wrap{height: 300px;}
-
-}
-
+    
 }

@@ -109,15 +109,17 @@ section{box-sizing: border-box;}
 .first-txtBox{width: 100%;}
 
 /* slide move btn */
-.swiper-button-next{background: black; opacity: 0; transition: all 0.3s; -webkit-tap-highlight-color:transparent; height: 28px; border-radius: 50%; outline: none; border: 2px solid #fff; box-shadow: 1px 1px 5px 1px #777;}
-.swiper-button-next::after{color: #fff; transform: scale(0.3); margin-left: 2px; margin-top: 1px; font-weight: 800;}
 
-.swiper-button-prev{background: black; opacity: 0; transition: all 0.3s; -webkit-tap-highlight-color:transparent; height: 28px; border-radius: 50%; outline: none; border: 2px solid #fff; box-shadow: 1px 1px 10px 1px #777;}
-.swiper-button-prev::after{color: #fff; transform: scale(0.3); margin-right: 2px; margin-top: 0px; font-weight: 800;}
 
-.slide_wrap:hover .swiper-button-next{opacity: 1;}
-.slide_wrap:hover .swiper-button-prev{opacity: 1;}
 
+.swiper-button-next1{background: black; position: absolute; top: 45%; right: 2%; z-index: 100; opacity: 0; transition: all 0.3s; -webkit-tap-highlight-color:transparent; height: 28px; width: 28px; border-radius: 50%; outline: none; border: 2px solid #fff; box-shadow: 1px 1px 5px 1px #777;}
+.swiper-button-next1 i{color: #fff; font-size: 20px; margin-left: 9px; margin-top: 5px; font-weight: 800;}
+
+.swiper-button-prev1{background: black; position: absolute; top: 45%; left: 2%; z-index: 100; opacity: 0; transition: all 0.3s; -webkit-tap-highlight-color:transparent; height: 28px; width: 28px; border-radius: 50%; outline: none; border: 2px solid #fff; box-shadow: 1px 1px 10px 1px #777;}
+.swiper-button-prev1 i{color: #fff; font-size: 20px; margin-left: 7px; margin-top: 5px; font-weight: 800;}
+
+.slide_wrap:hover .swiper-button-next1{opacity: 1;}
+.slide_wrap:hover .swiper-button-prev1{opacity: 1;}
 
 
 
@@ -178,7 +180,7 @@ section{box-sizing: border-box;}
 
 .sbox{width: 100%; overflow: hidden; margin: auto; height:auto; margin-bottom: 20px;}
 
-.swiper-wrapper{width: 0;  height: auto; background: green;}
+.swiper-wrapper{width: 100%;  height: auto;}
 
 .swiper-pagination2, .swiper-pagination3 {width: 100%; text-align: center; position: unset;}
 
@@ -206,7 +208,7 @@ section{box-sizing: border-box;}
 .list_game_info{box-sizing: border-box; padding: 10px; position: relative; width: auto; height: 140px; background: #fff;}
 .list_game_info h5{color: gray; font-weight: 400;}
 .list_game_info p{font-size: 16px; position: absolute; bottom: 10px; color: rgb(255, 102, 0);}
-.list_game_info b{font-weight: 300; font-size: 13px; color: gray;}
+.list_game_info b{font-weight: 300; font-size: 13px; color: gray; position: unset;}
 .list_game_info span{position: absolute; font-size: 16px; bottom: 10px; color: rgb(255, 102, 0);}
 .list_game_info img{position: absolute; margin-top: 5px; width: 17px;}
 
